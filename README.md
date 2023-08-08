@@ -8,3 +8,7 @@ In the picture above, a machine that is trying to access a Web site using Web br
 `Server A name - mysql server`
 
 `Server B name - mysql client`
+
+![Screenshot 2023-07-25 082849](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/9d4fb5d6-14c5-4ee7-9bf0-3a30f774e54b)
+
+On mysql server Linux Server install MySQL Server software and On On mysql client Linux Server install MySQL Client software. Also i'll use mysql server's local IP address to connect from mysql client by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups, allowing access only to the specific local IP address of ‘mysql client’.
