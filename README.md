@@ -26,4 +26,16 @@ Next i'll be creating a user 'ope' with the Mysql-client ip address and set a pa
 
 I'll also grant privileges  to ope to have access to Mysql-server and flush all queries
 
+![Screenshot 2023-07-25 165807](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/185c41ea-7e8b-452a-aa1e-56e878426e52)
+
+![Screenshot 2023-07-25 165829](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/3d03083a-af3f-4367-9bea-90c1e629c098)
+
+![Screenshot 2023-07-25 170225](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/dd13d42c-2bc6-4f6e-847a-52972ab0d34b)
+
+Now that all my configuration is done, i will try to acess Mysql-server from Mysql-client to see if everything works fine
+
+
+
+
+
 
