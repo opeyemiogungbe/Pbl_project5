@@ -12,3 +12,12 @@ In the picture above, a machine that is trying to access a Web site using Web br
 ![Screenshot 2023-07-25 082849](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/9d4fb5d6-14c5-4ee7-9bf0-3a30f774e54b)
 
 On mysql server Linux Server install MySQL Server software and On On mysql client Linux Server install MySQL Client software. Also i'll use mysql server's local IP address to connect from mysql client by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups, allowing access only to the specific local IP address of ‘mysql client’.
+
+![Screenshot 2023-07-25 155110](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/7fd4d085-ffa0-41de-a72d-f23f9b68637c)
+
+I will also be configuring MySQL server to allow connections from remote hosts by `sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf` and setting the bind adress to;
+```
+bind address       =0.0.0.0
+```
+
+Next i'll be creating a user 'ope' with the Mysql-client ip address and set a password for it
