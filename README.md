@@ -21,3 +21,9 @@ bind address       =0.0.0.0
 ```
 
 Next i'll be creating a user 'ope' with the Mysql-client ip address and set a password for it
+
+![Screenshot 2023-07-25 165745](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/a4666dec-c844-4902-828c-b19a99005b15)
+
+I'll also grant privileges  to ope to have access to Mysql-server and flush all queries
+
+
