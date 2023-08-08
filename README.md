@@ -34,8 +34,6 @@ I'll also grant privileges  to ope to have access to Mysql-server and flush all 
 
 Now that all my configuration is done, i will try to acess Mysql-server from Mysql-client to see if everything works fine
 
+![Screenshot 2023-07-25 172112](https://github.com/opeyemiogungbe/Pbl_project5/assets/136735745/5bc84b00-8932-4587-816d-c10b4f40fd90)
 
-
-
-
-
+The above image shows i can successfully make connections from Mysql-client to Mysql-server hence making this project sucessful.
